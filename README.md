@@ -1,4 +1,6 @@
 ESTUDO DO SEGUNDO TRIMESTRE
 
 
+TEMA: CINEMA
+
 Luca Ferreira Pasafaro - N° 23
