@@ -1,6 +1,3 @@
-ESTUDO DO SEGUNDO TRIMESTRE
-
-
-TEMA: CINEMA
-
-Luca Ferreira Pasafaro - N° 23
+# Estudo do Segundo Trimestre
+## Tema da Sala: Filme-(Cinema)
+Leonardo de Mattos Ribeiro - N°21
