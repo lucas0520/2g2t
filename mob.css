@@ -3,8 +3,8 @@
     margin: 0;
 }
 :root{
-    --cor-fundo: rgb(7,2,255);
-    --cor-fonte: rgb(255,230,0);
+    --cor-fundo: rgb(0, 17, 255);
+    --cor-fonte: rgb(250, 250, 250);
     --cor-hover: rgb(89,87,219);
 
 }
@@ -45,7 +45,6 @@ ul {    width: 100%;
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
-
 }
 .hamb{
     cursor: pointer;
@@ -71,7 +70,7 @@ ul {    width: 100%;
     width: 100%;
 }
 .hamb-line::before{
-    top: 5px    ;
+    top: 5px;
 }
 .hamb-line::after{
     top: -5px;
@@ -79,7 +78,23 @@ ul {    width: 100%;
 .side-menu{
     display: none;
 }
-
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+.side-menu:checked~.hamb .hamb-line::before{
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+#logo {
+    width: 20%;
+}
 .conteudo {
     width: 100%;
     background-color: rgb(0, 238, 255);
