@@ -81,7 +81,7 @@ ul {    width: 100%;
 .side-menu:checked ~ nav{
     max-height: 100%;
 }
-.side-menu:checked~.hamb .hamb-line::before{
+.side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
 }
 .side-menu:checked ~ .hamb .hamb-line::before {
@@ -124,21 +124,22 @@ ul {    width: 100%;
 .img-estilo {
     width: 100%;
 }
-@media screen and (mind-width: 768px) {
-    .menu {
-        height: 120px;
-        background-color: blue;
-    }
-    .conteudo {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1028px) {
-    .menu {
-        height: 200px;
-        background-color: aqua;
-    }
-    .conteudo {
-        display: grid;
-    }
+@media screen and (min-width: 768px) {
+   .nav {
+       max-height: none;
+       top: 0;
+       position: relative;
+       float: right;
+       width: fit-content;
+       background-color: transparent;
+   }
+   .menu li {
+       float: left;
+   }
+   .menu a:hover {
+       background-color: transparent;
+   }
+   .hamb {
+       display: none;
+   }
 }
