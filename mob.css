@@ -105,6 +105,16 @@ ul {    width: 100%;
     width: 100%;
     text-align: center;
 }
+.conteudo-info{
+    display: flex;
+
+}
+.img-info{
+    display: none;
+}
+.texto.info{
+    padding: 5px;
+}
 .info-cinema {
     width: 100%;
     background-color: rgb(250, 138, 1);
@@ -141,5 +151,13 @@ ul {    width: 100%;
    }
    .hamb {
        display: none;
+   }
+   .conteudo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:"foto" "foto" ;
+   }
+   .img-info{
+    display: block;
    }
 }
